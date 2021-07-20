@@ -14,6 +14,7 @@
 		331D97D8269EA97400ABD961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331D97D7269EA97400ABD961 /* Assets.xcassets */; };
 		331D97DB269EA97400ABD961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331D97D9269EA97400ABD961 /* LaunchScreen.storyboard */; };
 		331D97E3269EC9AA00ABD961 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D97E2269EC9AA00ABD961 /* WelcomeViewController.swift */; };
+		33E3552C26A668E5000C6A15 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E3552B26A668E5000C6A15 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		331D97DA269EA97400ABD961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		331D97DC269EA97400ABD961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		331D97E2269EC9AA00ABD961 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		33E3552B26A668E5000C6A15 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,57 @@
 		331D97CD269EA97200ABD961 /* ShevelkovMA_HW3.3 */ = {
 			isa = PBXGroup;
 			children = (
-				331D97CE269EA97200ABD961 /* AppDelegate.swift */,
-				331D97D0269EA97200ABD961 /* SceneDelegate.swift */,
-				331D97D2269EA97200ABD961 /* LoginViewController.swift */,
-				331D97D4269EA97200ABD961 /* Main.storyboard */,
-				331D97E2269EC9AA00ABD961 /* WelcomeViewController.swift */,
-				331D97D7269EA97400ABD961 /* Assets.xcassets */,
-				331D97D9269EA97400ABD961 /* LaunchScreen.storyboard */,
-				331D97DC269EA97400ABD961 /* Info.plist */,
+				33E3552726A414B6000C6A15 /* Models */,
+				33E3552526A4145C000C6A15 /* ViewControllers */,
+				33E3552826A414F0000C6A15 /* Storyboards */,
+				33E3552A26A4157D000C6A15 /* SupportFiles */,
+				33E3552926A41535000C6A15 /* Resoures */,
 			);
 			path = ShevelkovMA_HW3.3;
+			sourceTree = "<group>";
+		};
+		33E3552526A4145C000C6A15 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				331D97E2269EC9AA00ABD961 /* WelcomeViewController.swift */,
+				331D97D2269EA97200ABD961 /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		33E3552726A414B6000C6A15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33E3552B26A668E5000C6A15 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33E3552826A414F0000C6A15 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				331D97D4269EA97200ABD961 /* Main.storyboard */,
+				331D97D9269EA97400ABD961 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		33E3552926A41535000C6A15 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				331D97D7269EA97400ABD961 /* Assets.xcassets */,
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		33E3552A26A4157D000C6A15 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				331D97CE269EA97200ABD961 /* AppDelegate.swift */,
+				331D97D0269EA97200ABD961 /* SceneDelegate.swift */,
+				331D97DC269EA97400ABD961 /* Info.plist */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +186,7 @@
 				331D97D3269EA97200ABD961 /* LoginViewController.swift in Sources */,
 				331D97E3269EC9AA00ABD961 /* WelcomeViewController.swift in Sources */,
 				331D97CF269EA97200ABD961 /* AppDelegate.swift in Sources */,
+				33E3552C26A668E5000C6A15 /* User.swift in Sources */,
 				331D97D1269EA97200ABD961 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MTS8C67WC2;
-				INFOPLIST_FILE = ShevelkovMA_HW3.3/Info.plist;
+				INFOPLIST_FILE = ShevelkovMA_HW3.3/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MTS8C67WC2;
-				INFOPLIST_FILE = ShevelkovMA_HW3.3/Info.plist;
+				INFOPLIST_FILE = ShevelkovMA_HW3.3/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
