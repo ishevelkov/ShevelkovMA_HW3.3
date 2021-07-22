@@ -102,7 +102,7 @@
                                 <state key="normal" title="Log Out"/>
                                 <connections>
                                     <action selector="logOutButton" destination="hr9-Yr-Qms" eventType="touchUpInside" id="qVb-gy-Ea0"/>
-                                    <segue destination="hVi-Qd-PAu" kind="unwind" unwindAction="unwindSegueWithSegue:" id="bu2-JW-mwE"/>
+                                    <segue destination="hVi-Qd-PAu" kind="unwind" unwindAction="unwindSegueWithSegue:" id="f2T-P4-Run"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9B-PR-J9T">
@@ -145,7 +145,7 @@
         <scene sceneID="6Tc-Fz-RGB">
             <objects>
                 <viewController id="yfz-CX-8i4" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="khu-dD-k59">
+                    <view key="view" contentMode="scaleToFill" id="khu-dD-k59" customClass="UserInfoViewControllers">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -185,7 +185,7 @@
         <scene sceneID="8tD-za-gtG">
             <objects>
                 <viewController id="1zo-za-5nl" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="I5O-l5-rjf">
+                    <view key="view" contentMode="scaleToFill" id="I5O-l5-rjf" customClass="ImageViewControllers">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

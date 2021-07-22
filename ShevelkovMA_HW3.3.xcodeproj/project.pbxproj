@@ -15,6 +15,8 @@
 		331D97DB269EA97400ABD961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331D97D9269EA97400ABD961 /* LaunchScreen.storyboard */; };
 		331D97E3269EC9AA00ABD961 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D97E2269EC9AA00ABD961 /* WelcomeViewController.swift */; };
 		33E3552C26A668E5000C6A15 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E3552B26A668E5000C6A15 /* User.swift */; };
+		33E3552E26A6EC0E000C6A15 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E3552D26A6EC0E000C6A15 /* UserInfoViewController.swift */; };
+		33E3553026A6EC4B000C6A15 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E3552F26A6EC4B000C6A15 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		331D97DC269EA97400ABD961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		331D97E2269EC9AA00ABD961 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		33E3552B26A668E5000C6A15 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		33E3552D26A6EC0E000C6A15 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		33E3552F26A6EC4B000C6A15 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			children = (
 				331D97E2269EC9AA00ABD961 /* WelcomeViewController.swift */,
 				331D97D2269EA97200ABD961 /* LoginViewController.swift */,
+				33E3552D26A6EC0E000C6A15 /* UserInfoViewController.swift */,
+				33E3552F26A6EC4B000C6A15 /* ImageViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -184,7 +190,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				331D97D3269EA97200ABD961 /* LoginViewController.swift in Sources */,
+				33E3552E26A6EC0E000C6A15 /* UserInfoViewController.swift in Sources */,
 				331D97E3269EC9AA00ABD961 /* WelcomeViewController.swift in Sources */,
+				33E3553026A6EC4B000C6A15 /* ImageViewController.swift in Sources */,
 				331D97CF269EA97200ABD961 /* AppDelegate.swift in Sources */,
 				33E3552C26A668E5000C6A15 /* User.swift in Sources */,
 				331D97D1269EA97200ABD961 /* SceneDelegate.swift in Sources */,

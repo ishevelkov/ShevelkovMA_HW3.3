@@ -18,10 +18,20 @@ class LoginViewController: UIViewController {
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let welcomeVC = segue.destination as? WelcomeViewController else {return}
-        welcomeVC.user = user
+        guard let tabBarController = segue.destination as? UITabBarController else {return}
+        guard let viewConrollers = tabBarController.viewControllers else {return}
+        
+        viewConrollers.forEach {
+            if let welcomeVC = $0 as? WelcomeViewController {
+                welcomeVC.user = user
+            } else if let navigationVC = $0 as? UINavigationController {
+                let userInfoVC = navigationVC.topViewController as! UserInfoViewController
+                userInfoVC.user = user
+            }
+        }
+
     }
-    
+        
     // MARK: - IBAction
     @IBAction func logInButton() {
         if userNameTF.text != user.login || passwordTF.text != user.password {
@@ -59,3 +69,5 @@ extension LoginViewController {
     }
     
 }
+
+
